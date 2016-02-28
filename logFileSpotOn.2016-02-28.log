@@ -1,0 +1,45 @@
+2016-02-28 16:42:00,673 INFO  [restartedMain] Application: Starting Application on RONALDs-iMac-2.local with PID 6744 (/Users/Java/Development/GitHub/SpotOnMySql/target/classes started by ronaldteodosio in /Users/Java/Development/GitHub/SpotOnMySql)
+2016-02-28 16:42:00,675 DEBUG [restartedMain] Application: Running with Spring Boot v1.3.0.RC1, Spring v4.2.2.RELEASE
+2016-02-28 16:42:00,675 INFO  [restartedMain] Application: The following profiles are active: dev
+2016-02-28 16:42:02,831 DEBUG [restartedMain] logging: Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2016-02-28 16:42:03,017 DEBUG [restartedMain] AsyncConfiguration: Creating Async Task Executor
+2016-02-28 16:42:03,417 DEBUG [restartedMain] MetricsConfiguration: Registering JVM gauges
+2016-02-28 16:42:03,484 DEBUG [restartedMain] MetricsConfiguration: Initializing Metrics JMX reporting
+2016-02-28 16:42:04,948 INFO  [localhost-startStop-1] WebConfigurer: Web application configuration, using profiles: [dev]
+2016-02-28 16:42:04,948 DEBUG [localhost-startStop-1] WebConfigurer: Initializing Metrics registries
+2016-02-28 16:42:04,951 DEBUG [localhost-startStop-1] WebConfigurer: Registering Metrics Filter
+2016-02-28 16:42:04,951 DEBUG [localhost-startStop-1] WebConfigurer: Registering Metrics Servlet
+2016-02-28 16:42:04,953 INFO  [localhost-startStop-1] WebConfigurer: Web application fully configured
+2016-02-28 16:42:05,382 DEBUG [localhost-startStop-1] DatabaseConfiguration: Configuring Datasource
+2016-02-28 16:42:05,842 DEBUG [localhost-startStop-1] DatabaseConfiguration: Configuring Liquibase
+2016-02-28 16:42:05,855 WARN  [spoton-Executor-1] AsyncSpringLiquibase: Starting Liquibase asynchronously, your database might not be ready at startup!
+2016-02-28 16:42:10,178 DEBUG [localhost-startStop-1] CacheConfiguration: Starting Ehcache
+2016-02-28 16:42:10,180 DEBUG [localhost-startStop-1] CacheConfiguration: Registering Ehcache Metrics gauges
+2016-02-28 16:42:10,645 INFO  [localhost-startStop-1] Application: Running with Spring profile(s) : [dev]
+2016-02-28 16:42:10,975 INFO  [restartedMain] ThymeleafConfiguration: loading non-reloadable mail messages resources
+2016-02-28 16:42:11,751 DEBUG [spoton-Executor-1] AsyncSpringLiquibase: Started Liquibase in 5896 ms
+2016-02-28 16:42:12,583 DEBUG [restartedMain] SwaggerConfiguration: Starting Swagger
+2016-02-28 16:42:12,593 DEBUG [restartedMain] SwaggerConfiguration: Started Swagger in 10 ms
+2016-02-28 16:42:12,661 DEBUG [restartedMain] LoggingAspect: Enter: com.smg.spoton.repository.CustomAuditEventRepository.auditEventRepository() with argument[s] = []
+2016-02-28 16:42:12,665 DEBUG [restartedMain] LoggingAspect: Exit: com.smg.spoton.repository.CustomAuditEventRepository.auditEventRepository() with result = com.smg.spoton.repository.CustomAuditEventRepository$1@14eeaa3e
+2016-02-28 16:42:13,719 INFO  [restartedMain] Application: Started Application in 14.077 seconds (JVM running for 14.43)
+2016-02-28 16:42:13,720 INFO  [restartedMain] Application: Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8080
+	External: 	http://192.168.1.3:8080
+----------------------------------------------------------
+2016-02-28 16:42:50,063 DEBUG [http-nio-8080-exec-1] CustomPersistentRememberMeServices: Remember-me cookie detected
+2016-02-28 16:42:50,163 INFO  [http-nio-8080-exec-1] CustomPersistentRememberMeServices: presentedToken=8msmUKkf1UTQIdwQ7myL7w== / tokenValue=8msmUKkf1UTQIdwQ7myL7w==
+2016-02-28 16:42:50,163 DEBUG [http-nio-8080-exec-1] CustomPersistentRememberMeServices: Refreshing persistent login token for user 'admin', series '7Kpl4NS3MQw1cZh7Wvw8Aw=='
+2016-02-28 16:42:50,198 DEBUG [http-nio-8080-exec-1] UserDetailsService: Authenticating admin
+2016-02-28 16:42:50,526 DEBUG [http-nio-8080-exec-1] CustomPersistentRememberMeServices: Remember-me cookie accepted
+2016-02-28 16:42:50,531 DEBUG [http-nio-8080-exec-1] LoggingAspect: Enter: org.springframework.boot.actuate.audit.AuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=Sun Feb 28 16:42:50 EST 2016, principal=admin, type=AUTHENTICATION_SUCCESS, data={details=org.springframework.security.web.authentication.WebAuthenticationDetails@255f8: RemoteIpAddress: 127.0.0.1; SessionId: 1C6BD6990B9681239F9F656391C9A8C6}]]
+2016-02-28 16:42:50,549 DEBUG [http-nio-8080-exec-1] LoggingAspect: Exit: org.springframework.boot.actuate.audit.AuditEventRepository.add() with result = null
+2016-02-28 16:42:51,013 DEBUG [http-nio-8080-exec-4] LoggingAspect: Enter: com.smg.spoton.web.rest.AccountResource.getAccount() with argument[s] = []
+2016-02-28 16:42:51,020 DEBUG [http-nio-8080-exec-4] LoggingAspect: Enter: com.smg.spoton.service.UserService.getUserWithAuthorities() with argument[s] = []
+2016-02-28 16:42:51,031 DEBUG [http-nio-8080-exec-4] LoggingAspect: Exit: com.smg.spoton.service.UserService.getUserWithAuthorities() with result = User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated='true', langKey='en', activationKey='null'}
+2016-02-28 16:42:51,035 DEBUG [http-nio-8080-exec-4] LoggingAspect: Exit: com.smg.spoton.web.rest.AccountResource.getAccount() with result = <200 OK,UserDTO{login='admin', password='null', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated=true, langKey='en', authorities=[ROLE_USER, ROLE_ADMIN]},{}>
+2016-02-28 16:42:59,664 DEBUG [http-nio-8080-exec-6] LoggingAspect: Enter: com.smg.spoton.web.rest.AccountResource.getAccount() with argument[s] = []
+2016-02-28 16:42:59,665 DEBUG [http-nio-8080-exec-6] LoggingAspect: Enter: com.smg.spoton.service.UserService.getUserWithAuthorities() with argument[s] = []
+2016-02-28 16:42:59,669 DEBUG [http-nio-8080-exec-6] LoggingAspect: Exit: com.smg.spoton.service.UserService.getUserWithAuthorities() with result = User{login='admin', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated='true', langKey='en', activationKey='null'}
+2016-02-28 16:42:59,670 DEBUG [http-nio-8080-exec-6] LoggingAspect: Exit: com.smg.spoton.web.rest.AccountResource.getAccount() with result = <200 OK,UserDTO{login='admin', password='null', firstName='Administrator', lastName='Administrator', email='admin@localhost', activated=true, langKey='en', authorities=[ROLE_USER, ROLE_ADMIN]},{}>

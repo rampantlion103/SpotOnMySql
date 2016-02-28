@@ -1,0 +1,38 @@
+
+
+Forcast for {{ city }}
+
+<p>
+    <a href="#/">Back to Search</a>
+</p>
+
+<hr />
+Days: <a href="#/forecast/2" ng-class="{'bg-primary': days === '2'}">2</a> | <a href="#/forecast/5" ng-class="{'bg-primary': days === '5'}">5</a> | <a href="#/forecast/7" ng-class="{'bg-primary': days === '7'}">7</a>
+<hr />
+
+<div ng-repeat="w in weatherResult.list" class="ngCloak">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Date: {{convertToDate(w.dt) | date: 'MMM d, y'}}</h3>
+                </div>
+                <div class="panel-body">
+                    Daytime temperature: {{ convertToFahrenheit(w.temp.day)}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div ng-show="showDevelopment" class="small"> 
+    <div>pages/forecast.htm</div> 
+    <div>city: {{city}}</div>
+    <div>weatherResutl.city: {{weatherResult.city}}</div>
+    <div>weatherResutl.coord: {{weatherResult.city.coord}}</div>
+    <div>weatherResult.list[0]: {{weatherResult.list[0]}}</div>
+    <div>weatherResult.list: {{weatherResult.list}}</div>
+    <div>weatherResult: {{weatherResult}}</div>
+</div>

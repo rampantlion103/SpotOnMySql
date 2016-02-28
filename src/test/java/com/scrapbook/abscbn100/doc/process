@@ -1,0 +1,54 @@
+here’s a high level summary:
+
+Business Requirement: ability to process two files, one from ABS-CBN and another from Kantar to identify which of the spots differ from both files
+
+Output: there are 2 outputs. 1 file will be the spots without any discrepancy and another with the discrepancies in CSV format
+
+Target Go Live Date: Jan 15, 2016
+
+This should be a Web base application.  We can talk further.
+
+On Dec 17, 2015 10:20 PM, "Ram Teodosio" <ram.teodosio@smvgroup.com> wrote:
+
+________________________________________
+From: Rosebelle Lazatin
+Sent: Wednesday, December 16, 2015 5:13 AM
+To: Ram Teodosio
+Cc: Onel Querijero
+Subject: FW: Sample of ABS-CBN Daily Spot Report and Our Own Kantar Run
+
+Hi Ram,
+
+As discussed we need a program that will match the 2 attached files (one from ABS and the other our own run of the Kantar data.
+
+Output should be:
+
+1.       for matched items:
+
+a.       excel file that can be used to make a realignment plan
+
+b.      excel or other file that will eventually e used to populate BCC
+
+2.       for unmatched items
+
+a.       excel file that can be used to inform ABS that the data has to be revised
+
+As initially mentioned, it would be great if we can have the program by mid January.
+
+Thanks!
+Rosebelle
+
+
+From: Alma Genetiano
+Sent: Tuesday, December 15, 2015 5:15 PM
+To: Rosebelle Lazatin <rosebelle.lazatin@starlinkww.com>
+Cc: Onel Querijero <onel.querijero@smvgroup.com>; Veron Agustin <veron.agustin@smvgroup.com>
+Subject: Sample of ABS-CBN Daily Spot Report and Our Own Kantar Run
+
+Hi Rosebelle,
+
+Attached, for your reference, are samples of the daily actualized report sent by ABS-CBN as well as our own Kantar run where the reports are being checked against.
+
+For your reference.
+
+Thanks,

@@ -1,0 +1,14 @@
+com/scrapbook/abscbn100/SpotOnMockController.class
+com/scrapbook/abscbn100/FileUploadController.class
+com/smg/spoton/web/rest/AuditResourceTest.class
+com/smg/spoton/web/rest/UserResourceTest.class
+com/smg/spoton/service/UserServiceTest.class
+com/scrapbook/abscbn100/SpotsCheck.class
+com/scrapbook/abscbn100/BetweenDates.class
+com/smg/spoton/web/rest/AccountResourceTest.class
+com/smg/spoton/web/rest/TestUtil.class
+com/scrapbook/abscbn100/ReadFileWriteResultsXLSX2.class
+com/smg/spoton/security/SecurityUtilsTest.class
+com/scrapbook/abscbn100/MyMultipleFileZip.class
+com/scrapbook/abscbn100/ReadFileWriteResultsXLSX.class
+com/scrapbook/abscbn100/SpotsXLSX.class
